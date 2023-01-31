@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B0610DF338754CA5E1A0211 /* Pods_EyezonSDK2_0_Test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 490545659DD5BFD2D59E4C6E /* Pods_EyezonSDK2_0_Test.framework */; };
+		F3EEECB32985807D0013BA21 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3EEECB22985807D0013BA21 /* AppDelegate.swift */; };
+		F3EEECB52985807D0013BA21 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3EEECB42985807D0013BA21 /* SceneDelegate.swift */; };
+		F3EEECB72985807D0013BA21 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3EEECB62985807D0013BA21 /* ViewController.swift */; };
+		F3EEECBA2985807D0013BA21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3EEECB82985807D0013BA21 /* Main.storyboard */; };
+		F3EEECBC2985807F0013BA21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3EEECBB2985807F0013BA21 /* Assets.xcassets */; };
+		F3EEECBF2985807F0013BA21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3EEECBD2985807F0013BA21 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		490545659DD5BFD2D59E4C6E /* Pods_EyezonSDK2_0_Test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EyezonSDK2_0_Test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		673390A2B14088A345C6B62B /* Pods-EyezonSDK2.0-Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EyezonSDK2.0-Test.debug.xcconfig"; path = "Target Support Files/Pods-EyezonSDK2.0-Test/Pods-EyezonSDK2.0-Test.debug.xcconfig"; sourceTree = "<group>"; };
+		B708BA688B6BA393BE2C360B /* Pods-EyezonSDK2.0-Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EyezonSDK2.0-Test.release.xcconfig"; path = "Target Support Files/Pods-EyezonSDK2.0-Test/Pods-EyezonSDK2.0-Test.release.xcconfig"; sourceTree = "<group>"; };
+		F3CAFE1B2988FB4D004F4F34 /* EyezonSDK2.0-Test.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "EyezonSDK2.0-Test.entitlements"; sourceTree = "<group>"; };
+		F3EEECAF2985807D0013BA21 /* EyezonSDK2.0-Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EyezonSDK2.0-Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3EEECB22985807D0013BA21 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F3EEECB42985807D0013BA21 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F3EEECB62985807D0013BA21 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F3EEECB92985807D0013BA21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F3EEECBB2985807F0013BA21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F3EEECBE2985807F0013BA21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F3EEECC02985807F0013BA21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F3EEECAC2985807D0013BA21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B0610DF338754CA5E1A0211 /* Pods_EyezonSDK2_0_Test.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		696CD0AE7FA48747FA3D04B5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				673390A2B14088A345C6B62B /* Pods-EyezonSDK2.0-Test.debug.xcconfig */,
+				B708BA688B6BA393BE2C360B /* Pods-EyezonSDK2.0-Test.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A215EBFFE407D8BEA7C45784 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				490545659DD5BFD2D59E4C6E /* Pods_EyezonSDK2_0_Test.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F3EEECA62985807C0013BA21 = {
+			isa = PBXGroup;
+			children = (
+				F3EEECB12985807D0013BA21 /* EyezonSDK2.0-Test */,
+				F3EEECB02985807D0013BA21 /* Products */,
+				696CD0AE7FA48747FA3D04B5 /* Pods */,
+				A215EBFFE407D8BEA7C45784 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F3EEECB02985807D0013BA21 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3EEECAF2985807D0013BA21 /* EyezonSDK2.0-Test.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3EEECB12985807D0013BA21 /* EyezonSDK2.0-Test */ = {
+			isa = PBXGroup;
+			children = (
+				F3CAFE1B2988FB4D004F4F34 /* EyezonSDK2.0-Test.entitlements */,
+				F3EEECB22985807D0013BA21 /* AppDelegate.swift */,
+				F3EEECB42985807D0013BA21 /* SceneDelegate.swift */,
+				F3EEECB62985807D0013BA21 /* ViewController.swift */,
+				F3EEECB82985807D0013BA21 /* Main.storyboard */,
+				F3EEECBB2985807F0013BA21 /* Assets.xcassets */,
+				F3EEECBD2985807F0013BA21 /* LaunchScreen.storyboard */,
+				F3EEECC02985807F0013BA21 /* Info.plist */,
+			);
+			path = "EyezonSDK2.0-Test";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F3EEECAE2985807D0013BA21 /* EyezonSDK2.0-Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3EEECC32985807F0013BA21 /* Build configuration list for PBXNativeTarget "EyezonSDK2.0-Test" */;
+			buildPhases = (
+				6876A4641AEE8E6DAC3F18AF /* [CP] Check Pods Manifest.lock */,
+				F3EEECAB2985807D0013BA21 /* Sources */,
+				F3EEECAC2985807D0013BA21 /* Frameworks */,
+				F3EEECAD2985807D0013BA21 /* Resources */,
+				EFC3D5E80C45F654F6030380 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "EyezonSDK2.0-Test";
+			productName = "EyezonSDK2.0-Test";
+			productReference = F3EEECAF2985807D0013BA21 /* EyezonSDK2.0-Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F3EEECA72985807C0013BA21 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					F3EEECAE2985807D0013BA21 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = F3EEECAA2985807C0013BA21 /* Build configuration list for PBXProject "EyezonSDK2.0-Test" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F3EEECA62985807C0013BA21;
+			productRefGroup = F3EEECB02985807D0013BA21 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3EEECAE2985807D0013BA21 /* EyezonSDK2.0-Test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F3EEECAD2985807D0013BA21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3EEECBF2985807F0013BA21 /* LaunchScreen.storyboard in Resources */,
+				F3EEECBC2985807F0013BA21 /* Assets.xcassets in Resources */,
+				F3EEECBA2985807D0013BA21 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6876A4641AEE8E6DAC3F18AF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EyezonSDK2.0-Test-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EFC3D5E80C45F654F6030380 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EyezonSDK2.0-Test/Pods-EyezonSDK2.0-Test-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EyezonSDK2.0-Test/Pods-EyezonSDK2.0-Test-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EyezonSDK2.0-Test/Pods-EyezonSDK2.0-Test-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F3EEECAB2985807D0013BA21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3EEECB72985807D0013BA21 /* ViewController.swift in Sources */,
+				F3EEECB32985807D0013BA21 /* AppDelegate.swift in Sources */,
+				F3EEECB52985807D0013BA21 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F3EEECB82985807D0013BA21 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3EEECB92985807D0013BA21 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F3EEECBD2985807F0013BA21 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3EEECBE2985807F0013BA21 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F3EEECC12985807F0013BA21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F3EEECC22985807F0013BA21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F3EEECC42985807F0013BA21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 673390A2B14088A345C6B62B /* Pods-EyezonSDK2.0-Test.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "EyezonSDK2.0-Test/EyezonSDK2.0-Test.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JA2M8SY5S4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "EyezonSDK2.0-Test/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.eyezon.EyezonSDK2-0-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F3EEECC52985807F0013BA21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B708BA688B6BA393BE2C360B /* Pods-EyezonSDK2.0-Test.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "EyezonSDK2.0-Test/EyezonSDK2.0-Test.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JA2M8SY5S4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "EyezonSDK2.0-Test/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.eyezon.EyezonSDK2-0-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F3EEECAA2985807C0013BA21 /* Build configuration list for PBXProject "EyezonSDK2.0-Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3EEECC12985807F0013BA21 /* Debug */,
+				F3EEECC22985807F0013BA21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3EEECC32985807F0013BA21 /* Build configuration list for PBXNativeTarget "EyezonSDK2.0-Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3EEECC42985807F0013BA21 /* Debug */,
+				F3EEECC52985807F0013BA21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F3EEECA72985807C0013BA21 /* Project object */;
+}
