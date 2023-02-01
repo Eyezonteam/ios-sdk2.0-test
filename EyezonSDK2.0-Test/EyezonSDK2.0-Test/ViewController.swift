@@ -8,8 +8,8 @@
 import UIKit
 import EyezonSDK_2_0
 
-var apnToken = ""
-var bundleID = ""
+var apnToken = "Device token is empty"
+var bundleID = "BundleID is empty"
 
 class ViewController: UIViewController {
     
@@ -33,39 +33,28 @@ class ViewController: UIViewController {
     }
     private let selectedServer: ServerArea = .sandbox
     
-    private lazy var eyezonButton: UIButton = {
-        let button = UIButton(frame: CGRect(origin: .zero, size: CGSize(width: 100, height: 40)))
-        button.backgroundColor = .blue
-        button.addTarget(self, action: #selector(openEyezon), for: .touchUpInside)
-        button.translatesAutoresizingMaskIntoConstraints = false
-        button.setTitle("SDK TEST", for: .normal)
-        return button
-    }()
+    private var interfaceData: EyezonSDKInterfaceBuilder {
+        EyezonSDKInterfaceBuilder(isNavigationController: false,
+                                  navBarBackgroundColor: .white,
+                                  navBarTitleText: "Eyezon",
+                                  navBarTitleColor: UIColor.black,
+                                  navBarBackButtonText: "Back",
+                                  navBarBackButtonColor: UIColor(red: 1.00, green: 0.18, blue: 0.33, alpha: 1.00),
+                                  navBarBackButtonLeftPosition: false
+        )
+    }
     
-    private lazy var logoutButton: UIButton = {
-        let button = UIButton(frame: CGRect(origin: .zero, size: CGSize(width: 100, height: 40)))
-        button.backgroundColor = .blue
-        button.addTarget(self, action: #selector(logout), for: .touchUpInside)
-        button.translatesAutoresizingMaskIntoConstraints = false
-        button.setTitle("Logout", for: .normal)
-        return button
-    }()
+    @IBAction func startButton(_ sender: Any) {
+        openEyezon()
+    }
+    
+    @IBAction func logOutButton(_ sender: Any) {
+        logout()
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.addSubview(eyezonButton)
-        view.addSubview(logoutButton)
-        let constraints = [
-            eyezonButton.centerXAnchor.constraint(equalTo: view.centerXAnchor),
-            eyezonButton.centerYAnchor.constraint(equalTo: view.centerYAnchor),
-            eyezonButton.widthAnchor.constraint(equalToConstant: 100),
-            eyezonButton.heightAnchor.constraint(equalToConstant: 40),
-            logoutButton.widthAnchor.constraint(equalToConstant: 100),
-            logoutButton.heightAnchor.constraint(equalToConstant: 40),
-            logoutButton.centerXAnchor.constraint(equalTo: view.centerXAnchor),
-            logoutButton.topAnchor.constraint(equalTo: eyezonButton.bottomAnchor, constant: 15)
-        ]
-        NSLayoutConstraint.activate(constraints)
+        // Do any additional setup after loading the view.
     }
     
     @objc
@@ -86,7 +75,7 @@ class ViewController: UIViewController {
     private func logout() {
         Eyezon.instance.logout { logout, error in
             guard error == nil else {
-                print(error?.localizedDescription ?? "")
+                print(error?.localizedDescription as Any)
                 return
             }
             print("Success logout")
