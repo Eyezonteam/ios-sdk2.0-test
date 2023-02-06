@@ -362,6 +362,7 @@
 				DEVELOPMENT_TEAM = JA2M8SY5S4;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "EyezonSDK2.0-Test/Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Need use your library or camera";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -392,6 +393,7 @@
 				DEVELOPMENT_TEAM = JA2M8SY5S4;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "EyezonSDK2.0-Test/Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Need use your library or camera";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
