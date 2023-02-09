@@ -14,7 +14,7 @@ var bundleID = "BundleID is empty"
 class ViewController: UIViewController {
     
     private enum Constants {
-        static let EYEZON_WIDGET_URL = "https://storage.googleapis.com/eyezonfortest/widget_2.0/sdkEnabled.html?eyezon"
+        static let EYEZON_WIDGET_URL = "https://storage.googleapis.com/eyezonfortest/widget_2.0/sdkEnabled.html?eyezon&businessId=\(EYEZON_BUSINESS_ID)&buttonId=\(EYEZON_BUTTON_ID)&apnToken=\(apnToken)&application=\(bundleID)"
         
         static let EYEZON_BUSINESS_ID = "23"
         static let EYEZON_BUTTON_ID = "13"
@@ -32,17 +32,6 @@ class ViewController: UIViewController {
         [.prod, .sandbox]
     }
     private let selectedServer: ServerArea = .sandbox
-    
-    private var interfaceData: EyezonSDKInterfaceBuilder {
-        EyezonSDKInterfaceBuilder(isNavigationController: false,
-                                  navBarBackgroundColor: .white,
-                                  navBarTitleText: "Eyezon",
-                                  navBarTitleColor: UIColor.black,
-                                  navBarBackButtonText: "Back",
-                                  navBarBackButtonColor: UIColor(red: 1.00, green: 0.18, blue: 0.33, alpha: 1.00),
-                                  navBarBackButtonLeftPosition: false
-        )
-    }
     
     @IBAction func startButton(_ sender: Any) {
         openEyezon()
@@ -89,6 +78,6 @@ class ViewController: UIViewController {
 
 extension ViewController: EyezonBroadcastReceiver {
     func onConsoleEvent(eventName: String, event: [String: Any]) {
-        print(#function, " \(eventName)")
+        print(#function, "\(eventName)")
     }
 }

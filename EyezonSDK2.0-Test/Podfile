@@ -1,9 +1,10 @@
 #source 'https://github.com/CocoaPods/Specs.git'
-platform :ios, '13.0'
+platform :ios, '14.7'
 
 target 'EyezonSDK2.0-Test' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
+  
   pod "EyezonSDK-2.0"
   # Pods for EyezonSDK2.0-Test
 
