@@ -58,6 +58,8 @@ class ViewController: UIViewController {
             let eyezonWebViewController = Eyezon.instance.openButton(data: predefinedData, broadcastReceiver: strongSelf)
             strongSelf.present(eyezonWebViewController, animated: true, completion: nil)
         }
+        
+        print(Constants.EYEZON_WIDGET_URL)
     }
     
     @objc

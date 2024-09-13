@@ -42,6 +42,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         self.pushToken = tokenString
         Eyezon.instance.initMessaging(apnsData: deviceToken)
         print("Device Token: \(tokenString)")
+        print("Device Token GA: \(convertAPNDataToString(data: deviceToken) ?? "")")
+    }
+    
+    func convertAPNDataToString(data: Data?) -> String? {
+        return data?.map { String (format: "%02.2hhx", $0) }.joined()
     }
     
     func application(
